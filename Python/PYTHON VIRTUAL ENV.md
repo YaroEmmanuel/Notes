@@ -1,8 +1,3 @@
----
-title: PYTHON VIRTUAL ENV
-created: '2022-10-17T16:55:00.639Z'
-modified: '2022-10-18T09:46:49.843Z'
----
 
 # PYTHON VIRTUAL ENV
 
@@ -15,10 +10,19 @@ pip install virtualenv
 ```sh
 virtualenv [name_of_virtual_env_folder]
 ```
+or
+```sh
+py -m venv [name_of_virtual_virtual_env_folder]
+```
 
 ## Activation of the virtual environment
+on MacOS/Unix
 ```sh
 source [path_to_the_virtual_env/bin/activate];
+```
+on Windows
+```sh
+path_to_the_virtual_env/Scripts/activate.bat
 ```
 
 ## List the available packages in the virtual environment
