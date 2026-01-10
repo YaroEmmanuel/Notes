@@ -32,7 +32,7 @@ pip list
 
 ## Export the availables installed packages
 ```sh
-pip --locale > path_to_exporting_file
+pip freeze --locale > path_to_exporting_file
 ```
 
 ## Desactivate the virtual environment
