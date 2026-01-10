@@ -24,6 +24,14 @@ on Windows
 ```sh
 path_to_the_virtual_env/Scripts/activate.bat
 ```
+or
+```sh
+path_to_the_virtual_env/Scripts/activate.ps1
+```
+## Check the current activated venv
+```sh
+ py -c "import sys; print('Active venv:', sys.prefix if sys.prefix != sys.base_prefix else 'None')"
+```
 
 ## List the available packages in the virtual environment
 ```sh
